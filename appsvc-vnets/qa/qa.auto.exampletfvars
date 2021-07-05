@@ -1,0 +1,15 @@
+env = "qa"
+
+####ACR####
+acr_password      = "SECRET"
+acr_url           = "https://myreg.azurecr.io"
+acr_registry_name = "myreg.azurecr.io"
+acr_username      = "myreg"
+
+####CONTAINERS###
+frontend_tag    = "qa"
+backend_tag = "qa"
+
+####DATABASE####
+database_login    = "myadmin"
+database_password = "SECRET"
